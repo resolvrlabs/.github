@@ -1,50 +1,71 @@
-<p align="center"><a href="https://resolvr.com"><img src="https://resolvr.com/resolvr-lockup.svg" width="260" alt="Resolvr"></a></p>
+<a href="https://resolvr.com">
+  <img src="https://raw.githubusercontent.com/resolvrlabs/.github/main/profile/assets/banner.svg" width="100%" alt="resolvr — Challenges, solved. Captcha and browser challenges, solved on real devices loading the page.">
+</a>
+
+<p align="center">
+  <a href="https://resolvr.com"><b>Website</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://resolvr.com/docs"><b>Docs</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://resolvr.com/dashboard"><b>Dashboard</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/resolvrlabs/resolvr-typescript"><b>TypeScript&nbsp;SDK</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://chromewebstore.google.com/detail/resolvr-captcha-solver/ojfacmifcbdmomphnbeilmhmaeicadga"><b>Extension</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://discord.gg/resolvr"><b>Discord</b></a>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@resolvrlabs/sdk"><img alt="npm" src="https://img.shields.io/npm/v/%40resolvrlabs%2Fsdk?style=flat-square&label=%40resolvrlabs%2Fsdk&labelColor=0a0b0d&color=5052a6"></a>
+  <a href="https://chromewebstore.google.com/detail/resolvr-captcha-solver/ojfacmifcbdmomphnbeilmhmaeicadga"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ojfacmifcbdmomphnbeilmhmaeicadga?style=flat-square&label=chrome%20extension&labelColor=0a0b0d&color=5052a6"></a>
+  <a href="https://discord.gg/resolvr"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5052a6?style=flat-square&logo=discord&logoColor=white&labelColor=0a0b0d"></a>
+  <a href="https://resolvr.com/signup"><img alt="Closed beta" src="https://img.shields.io/badge/status-closed%20beta-8b8ff0?style=flat-square&labelColor=0a0b0d"></a>
+</p>
+
+<br>
+
+Your agent hits a CAPTCHA and the run stops. **resolvr** keeps it going.
+
+Every challenge is solved on a **real device loading the real page**, and your agent gets back exactly what it needs to carry on. No solving logic to build, no browser farm to run.
+
+## Let your agent do the integration
+
+You don't need to read an API reference first. Copy one prompt, paste it into the coding agent you already use, and it builds the integration for you, in your project's own style.
+
+<img src="https://raw.githubusercontent.com/resolvrlabs/.github/main/profile/assets/flow.svg" width="100%" alt="From prompt to solved: pick the challenges you need, copy one prompt, paste it into any coding agent, the agent integrates resolvr from our docs, and your runs keep going.">
+
+**[Get your prompt at resolvr.com →](https://resolvr.com/#integration)** Pick the challenges you need and copy it, or point your agent straight at [resolvr.com/docs](https://resolvr.com/docs).
+
+**Why it works:** our docs are written for agents as much as for people. Every page is also served as plain markdown, and [`llms.txt`](https://resolvr.com/llms.txt) lists them all, so your agent reads the real reference instead of guessing.
+
+## Challenges we solve
+
+| Challenge | What it is |
+| :-- | :-- |
+| [**reCAPTCHA v2**](https://resolvr.com/docs/recaptcha-v2) | The checkbox, including the image puzzles it escalates to |
+| [**reCAPTCHA v3**](https://resolvr.com/docs/recaptcha-v3) | The invisible, score-based check |
+| [**Cloudflare Turnstile**](https://resolvr.com/docs/cloudflare) | The Turnstile widget |
+| [**Cloudflare block pages**](https://resolvr.com/docs/cloudflare) | The "Just a moment…" page in front of a site |
+
+More are in active development. See everything we support at **[resolvr.com/docs](https://resolvr.com/docs)**.
+
+## Where to get it
+
+| What | Where |
+| :-- | :-- |
+| **Agent prompt** | Pick your challenges and copy it on [resolvr.com](https://resolvr.com/#integration) |
+| **Docs** | Guides for every challenge at [resolvr.com/docs](https://resolvr.com/docs) |
+| **TypeScript SDK** | [resolvr-typescript](https://github.com/resolvrlabs/resolvr-typescript) on GitHub, [`@resolvrlabs/sdk`](https://www.npmjs.com/package/@resolvrlabs/sdk) on npm |
+| **Chrome extension** | Spots and solves challenges in the tab you're already using: [Chrome Web Store](https://chromewebstore.google.com/detail/resolvr-captcha-solver/ojfacmifcbdmomphnbeilmhmaeicadga) |
+| **API key** | Sign up for the closed beta at [resolvr.com](https://resolvr.com/signup) |
+
+<br>
 
 <div align="center">
-  <h1>Solving Infrastructure for Agents</h1>
 
-  <p><strong>Challenges, solved.</strong></p>
+### Closed beta — [request access at resolvr.com](https://resolvr.com/signup)
 
-  <p>
-    <a href="https://resolvr.com">Website</a>
-    ·
-    <a href="https://resolvr.com/docs">Docs</a>
-    ·
-    <a href="https://github.com/resolvrlabs/resolvr-typescript">TypeScript SDK</a>
-  </p>
-</div>
+<sub>Questions or a use case to share? <a href="mailto:support@resolvr.com">support@resolvr.com</a> · <a href="https://discord.gg/resolvr">Discord</a> · <a href="https://x.com/resolvrcom">X</a></sub>
 
----
-
-Your agent hits a CAPTCHA and the run stops. Resolvr is the layer that gets it moving again:
-send the challenge context to one endpoint, get back the token, browser identity headers or
-clearance cookies the next request needs. Every challenge is solved on real Chrome
-infrastructure loading the real page, so what comes back behaves like a browser, not a
-replayed string.
-
-Solved today: [`recaptcha_v2`](https://resolvr.com/docs/recaptcha-v2) · [`recaptcha_v3`](https://resolvr.com/docs/recaptcha-v3) · [`cloudflare_turnstile`](https://resolvr.com/docs/cloudflare) · [`cloudflare_blockpage`](https://resolvr.com/docs/cloudflare) — more in active development.
-
-#### Working agentic?
-
-Every docs page is markdown to an agent: append `.md` or send `Accept: text/markdown`, and
-[llms.txt](https://resolvr.com/llms.txt) indexes them all. Hand your agent the prompt and it
-writes the integration.
-
-<details>
-<summary>Copy the prompt</summary>
-
-```text
-Implement Resolvr support for recaptcha_v2, recaptcha_v3, cloudflare_turnstile, cloudflare_blockpage in this project using the Resolvr API docs:
-https://resolvr.com/docs
-
-Start from the docs index at https://resolvr.com/llms.txt and read the overview plus the page for each task type. Every page is served as markdown when you append .md to its URL or send Accept: text/markdown.
-
-Follow this project's existing HTTP client, configuration, error-handling, naming and test patterns. Integrate directly with the Resolvr API without duplicating existing infrastructure.
-```
-
-</details>
-
-<div align="center">
-  <h3><a href="https://resolvr.com/signup">Join us now @ resolvr.com</a></h3>
-  <sub>Closed beta · sign up, tell us your use case or redeem a ref code · <a href="mailto:contact@resolvr.com">contact@resolvr.com</a></sub>
 </div>
