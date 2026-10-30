@@ -11,6 +11,8 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/resolvrlabs/resolvr-typescript"><b>TypeScript&nbsp;SDK</b></a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/resolvrlabs/botdeflector-solver"><b>BotDeflector&nbsp;solver</b></a>
+  &nbsp;·&nbsp;
   <a href="https://chromewebstore.google.com/detail/resolvr-captcha-solver/ojfacmifcbdmomphnbeilmhmaeicadga"><b>Extension</b></a>
   &nbsp;·&nbsp;
   <a href="https://discord.gg/resolvr"><b>Discord</b></a>
@@ -47,6 +49,7 @@ You don't need to read an API reference first. Copy one prompt, paste it into th
 | [**reCAPTCHA v3**](https://resolvr.com/docs/recaptcha-v3) | The invisible, score-based check |
 | [**Cloudflare Turnstile**](https://resolvr.com/docs/cloudflare) | The Turnstile widget |
 | [**Cloudflare block pages**](https://resolvr.com/docs/cloudflare) | The "Just a moment…" page in front of a site |
+| [**Queue-it BotDeflector**](https://github.com/resolvrlabs/botdeflector-solver) | The challenge in front of Queue-it waiting rooms. The proof-of-work runs locally with our [open-source solver](https://github.com/resolvrlabs/botdeflector-solver); the icon step is one API call |
 
 More are in active development. See everything we support at **[resolvr.com/docs](https://resolvr.com/docs)**.
 
@@ -57,6 +60,7 @@ More are in active development. See everything we support at **[resolvr.com/docs
 | **Agent prompt** | Pick your challenges and copy it on [resolvr.com](https://resolvr.com/#integration) |
 | **Docs** | Guides for every challenge at [resolvr.com/docs](https://resolvr.com/docs) |
 | **TypeScript SDK** | [resolvr-typescript](https://github.com/resolvrlabs/resolvr-typescript) on GitHub, [`@resolvrlabs/sdk`](https://www.npmjs.com/package/@resolvrlabs/sdk) on npm |
+| **BotDeflector solver** | [botdeflector-solver](https://github.com/resolvrlabs/botdeflector-solver) on GitHub: the open-source proof-of-work solver in Rust and TypeScript, a reference client, and the icon API reference |
 | **Chrome extension** | Spots and solves challenges in the tab you're already using: [Chrome Web Store](https://chromewebstore.google.com/detail/resolvr-captcha-solver/ojfacmifcbdmomphnbeilmhmaeicadga) |
 | **API key** | Sign up for the closed beta at [resolvr.com](https://resolvr.com/signup) |
 
